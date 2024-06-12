@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { BlogListPageComponent } from './pages/blog-list-page/blog-list-page.component';
 
 export const routes: Routes = [
   {
